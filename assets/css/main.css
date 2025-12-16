@@ -449,8 +449,10 @@ h6 {
 }
 
 .footer .footer-about p {
-  font-size: 14px;
-  font-family: var(--heading-font);
+    font-size: 14px;
+    font-family: var(--heading-font);
+    max-width: 330px;
+    letter-spacing: 1px;
 }
 
 .footer .social-links a {
