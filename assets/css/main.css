@@ -456,17 +456,17 @@ h6 {
 }
 
 .footer .social-links a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%);
-  font-size: 16px;
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
-  margin-right: 10px;
-  transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 22px;
+    color: #a9a8a8;
+    background: #2a2a2a;
+    margin-right: 16px;
+    transition: 0.3s;
 }
 
 .footer .social-links a:hover {
@@ -522,9 +522,8 @@ h6 {
 }
 
 .footer .copyright {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  background-color: color-mix(in srgb, var(--default-color), transparent 95%);
+    padding-top: 25px;
+    border-top: 1px solid #404040;
 }
 
 .footer .copyright p {
@@ -1248,16 +1247,16 @@ span.heading-linear-color {
 }
 
 .services .service-item::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 4px;
-  background: linear-gradient(90deg, var(--accent-color), color-mix(in srgb, var(--accent-color), var(--heading-color) 30%));
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 0.4s ease-in-out;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, rgba(71, 92, 219, 1) 0%, rgba(52, 168, 83, 1) 100%);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.4s ease-in-out;
 }
 
 .services .service-item:hover {
@@ -1288,16 +1287,16 @@ span.heading-linear-color {
 }
 
 .services .service-item .service-icon {
-  width: 80px;
-  height: 80px;
-  background: linear-gradient(135deg, var(--accent-color), color-mix(in srgb, var(--accent-color), var(--heading-color) 20%));
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 32px;
-  transition: transform 0.4s ease-in-out;
-  flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(90deg, rgba(71, 92, 219, 1) 0%, rgba(52, 168, 83, 1) 100%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    transition: transform 0.4s ease-in-out;
+    flex-shrink: 0;
 }
 
 .services .service-item .service-icon i {
