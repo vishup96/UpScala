@@ -1110,15 +1110,14 @@ span.heading-linear-color {
 
 /* ================= Common ================= */
 .main-heading {
-  font-weight: 700;
-  font-size: 32px;
+    font-weight: 500;
+    font-size: 2.3rem;
 }
 
 .sub-text {
-  max-width: 620px;
-  margin: 0 auto;
-  color: #64748b;
-  font-size: 15px;
+    max-width: 620px;
+    margin: 0 auto;
+    font-size: 1rem;
 }
 
 /* ================= Difference ================= */
@@ -1153,14 +1152,10 @@ span.heading-linear-color {
     margin: 0 auto 14px;
 }
 
-.bg-blue { background: #3b82f6; }
-.bg-cyan { background: #06b6d4; }
-.bg-indigo { background: #6366f1; }
-.bg-purple { background: #8b5cf6; }
-
-.difference-card h6 {
-  font-weight: 600;
-  margin-bottom: 8px;
+.difference-card h3 {
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 1rem;
 }
 
 .difference-card p {
