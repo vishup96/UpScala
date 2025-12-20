@@ -1108,6 +1108,118 @@ span.heading-linear-color {
     font-size: 15px;
 }
 
+/* ================= Common ================= */
+.main-heading {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.sub-text {
+  max-width: 620px;
+  margin: 0 auto;
+  color: #64748b;
+  font-size: 15px;
+}
+
+/* ================= Difference ================= */
+.difference-wrapper {
+  padding: 90px 0;
+}
+
+.difference-card {
+  background: #fff;
+  padding: 28px 24px;
+  border-radius: 16px;
+  text-align: center;
+  height: 100%;
+  box-shadow: 0 12px 30px rgba(15,23,42,0.06);
+  transition: transform .3s ease;
+}
+
+.difference-card:hover {
+  transform: translateY(-6px);
+}
+
+.icon-circle {
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+    margin: 0 auto 14px;
+}
+
+.bg-blue { background: #3b82f6; }
+.bg-cyan { background: #06b6d4; }
+.bg-indigo { background: #6366f1; }
+.bg-purple { background: #8b5cf6; }
+
+.difference-card h6 {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.difference-card p {
+  font-size: 14px;
+  color: #64748b;
+  line-height: 1.6;
+}
+
+/* ================= Team ================= */
+/* .team-wrapper {
+  padding: 100px 0;
+} */
+
+.team-card {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 60px;
+  box-shadow: 0 20px 50px rgba(15,23,42,0.08);
+}
+
+.member-card h6 {
+  font-weight: 600;
+  margin-top: 14px;
+}
+
+.member-card span {
+  font-size: 14px;
+  color: #64748b;
+}
+
+.member-avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 16px;
+  margin: 0 auto;
+}
+
+.gradient-blue {
+  background: linear-gradient(135deg, #3b82f6, #06b6d4);
+}
+
+.gradient-cyan {
+  background: linear-gradient(135deg, #22d3ee, #6366f1);
+}
+
+.gradient-light {
+  background: linear-gradient(135deg, #cbd5e1, #e2e8f0);
+}
+
+/* ================= Stats ================= */
+.stats-row h4 {
+  font-weight: 700;
+  color: #2563eb;
+}
+
+.stats-row p {
+  font-size: 14px;
+  color: #64748b;
+}
+
 .about .content h2 {
   font-size: 42px;
   font-weight: 300;
