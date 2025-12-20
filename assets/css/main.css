@@ -1127,13 +1127,14 @@ span.heading-linear-color {
 }
 
 .difference-card {
-  background: #fff;
-  padding: 28px 24px;
-  border-radius: 16px;
-  text-align: center;
-  height: 100%;
-  box-shadow: 0 12px 30px rgba(15,23,42,0.06);
-  transition: transform .3s ease;
+    background: #fff;
+    padding: 28px 24px;
+    border-radius: 16px;
+    text-align: center;
+    height: 100%;
+    box-shadow: 0 12px 30px rgba(15,23,42,0.06);
+    transition: transform .3s ease;
+    border: 1px solid #00000021;
 }
 
 .difference-card:hover {
