@@ -5,29 +5,41 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Montserrat",  sans-serif;
-  --nav-font: "Poppins",  sans-serif;
+  --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Montserrat", sans-serif;
+  --nav-font: "Poppins", sans-serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
-:root { 
-  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #666666; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #000000; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #313131; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+:root {
+  --background-color: #ffffff;
+  /* Background color for the entire website, including individual sections */
+  --default-color: #666666;
+  /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #000000;
+  /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #313131;
+  /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --surface-color: #ffffff;
+  /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --contrast-color: #ffffff;
+  /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: #999999;  /* The default color of the main navmenu links */
-  --nav-hover-color: #000000; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
-  --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
-  --nav-dropdown-color: #666666; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #313131; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-color: #999999;
+  /* The default color of the main navmenu links */
+  --nav-hover-color: #000000;
+  /* Applied to main navmenu links when they are hovered over or active */
+  --nav-mobile-background-color: #ffffff;
+  /* Used as the background color for mobile navigation menu */
+  --nav-dropdown-background-color: #ffffff;
+  /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+  --nav-dropdown-color: #666666;
+  /* Used for navigation links of the dropdown items in the navigation menu. */
+  --nav-dropdown-hover-color: #313131;
+  /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
@@ -137,12 +149,12 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-    --background-color: rgba(255, 255, 255, 0);
-    color: var(--default-color);
-    background-color: var(--background-color);
-    padding: 6px 112px;
-    transition: all 0.5s;
-    z-index: 997;
+  --background-color: rgba(255, 255, 255, 0);
+  color: var(--default-color);
+  background-color: var(--background-color);
+  padding: 6px 112px;
+  transition: all 0.5s;
+  z-index: 997;
 }
 
 .header .logo {
@@ -449,24 +461,24 @@ h6 {
 }
 
 .footer .footer-about p {
-    font-size: 14px;
-    font-family: var(--heading-font);
-    max-width: 330px;
-    letter-spacing: 1px;
+  font-size: 14px;
+  font-family: var(--heading-font);
+  max-width: 330px;
+  letter-spacing: 1px;
 }
 
 .footer .social-links a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50px;
-    height: 50px;
-    border-radius: 10px;
-    font-size: 22px;
-    color: #a9a8a8;
-    background: #2a2a2a;
-    margin-right: 16px;
-    transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 22px;
+  color: #a9a8a8;
+  background: #2a2a2a;
+  margin-right: 16px;
+  transition: 0.3s;
 }
 
 .footer .social-links a:hover {
@@ -522,8 +534,8 @@ h6 {
 }
 
 .footer .copyright {
-    padding-top: 25px;
-    border-top: 1px solid #404040;
+  padding-top: 25px;
+  border-top: 1px solid #404040;
 }
 
 .footer .copyright p {
@@ -699,11 +711,13 @@ h6 {
 /*--------------------------------------------------------------
 # Global Sections
 --------------------------------------------------------------*/
-section, .section {
-    color: var(--default-color);
-    background-color: var(--background-color);
-    padding: 8rem 7rem;
+section,
+.section {
+  color: var(--default-color);
+  background-color: var(--background-color);
+  padding: 8rem 7rem;
 }
+
 @media (max-width: 1199px) {
 
   section,
@@ -722,12 +736,12 @@ section, .section {
 }
 
 .section-title h2 {
-    font-size: 2.8rem;
-    font-weight: 500;
-    color: var(--heading-color);
-    margin: 0 auto;
-    padding-bottom: 24px;
-    max-width: 755px;
+  font-size: 2.8rem;
+  font-weight: 500;
+  color: var(--heading-color);
+  margin: 0 auto;
+  padding-bottom: 24px;
+  max-width: 755px;
 }
 
 @media (max-width: 768px) {
@@ -737,21 +751,21 @@ section, .section {
 }
 
 .section-title .subtitle {
-    font-size: 0.875rem;
-    font-weight: 600;
-    color: #475cdb;
-    text-transform: uppercase;
-    letter-spacing: 0.045rem;
-    margin-bottom: 1.5rem;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    gap: 0.625rem;
-    box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
-    padding: 0.3rem 1rem;
-    border-radius: 50rem;
-    background: #ebeef7;
-    display: inline-flex;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #475cdb;
+  text-transform: uppercase;
+  letter-spacing: 0.045rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  gap: 0.625rem;
+  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
+  padding: 0.3rem 1rem;
+  border-radius: 50rem;
+  background: #ebeef7;
+  display: inline-flex;
 }
 
 /* .section-title .subtitle::after {
@@ -766,46 +780,46 @@ section, .section {
 } */
 
 .section-title p {
-    font-size: 1.125rem;
-    line-height: 1.6;
-    color: color-mix(in srgb, var(--default-color), transparent 25%);
-    max-width: 700px;
-    margin: 0 auto;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: color-mix(in srgb, var(--default-color), transparent 25%);
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
 .hero {
-    position: relative;
-    overflow: hidden;
-    background-image: url(../img/hero-bg.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  position: relative;
+  overflow: hidden;
+  background-image: url(../img/hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero h5 {
-    background: #fff;
-    display: inline-block;
-    padding: 0.3rem 1rem;
-    border-radius: 50rem;
-    margin-bottom: 2rem;
-    box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
+  background: #fff;
+  display: inline-block;
+  padding: 0.3rem 1rem;
+  border-radius: 50rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
 }
 
 .hero .hero-content h1 {
-    font-size: 3.5rem;
-    font-weight: 600;
-    margin-bottom: 2rem;
-    color: var(--heading-color);
-    letter-spacing: -1px;
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: var(--heading-color);
+  letter-spacing: -1px;
 }
 
 span.heading-linear-color {
-    background: -webkit-linear-gradient(#475CDB, #38E9FF);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(#475CDB, #38E9FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @media (max-width: 768px) {
@@ -815,11 +829,11 @@ span.heading-linear-color {
 }
 
 .hero .hero-content p {
-    font-size: 1.25rem;
-    line-height: 1.7;
-    margin-bottom: 3rem;
-    color: color-mix(in srgb, var(--default-color), transparent 20%);
-    letter-spacing: 0.03rem;
+  font-size: 1.25rem;
+  line-height: 1.7;
+  margin-bottom: 3rem;
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  letter-spacing: 0.03rem;
 }
 
 .hero .hero-cta {
@@ -838,15 +852,15 @@ span.heading-linear-color {
 }
 
 .hero .hero-cta .btn-primary {
-    background-color: #475CDB;
-    color: var(--contrast-color);
-    padding: 17px 32px;
-    border-radius: 6px;
-    font-weight: 600;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    border: none;
-    box-shadow: 0 4px 15px color-mix(in srgb, var(--accent-color), transparent 80%);
+  background-color: #475CDB;
+  color: var(--contrast-color);
+  padding: 17px 32px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: none;
+  box-shadow: 0 4px 15px color-mix(in srgb, var(--accent-color), transparent 80%);
 }
 
 /* .hero .hero-cta .btn-primary:hover {
@@ -856,17 +870,17 @@ span.heading-linear-color {
 } */
 
 .hero .hero-cta .btn-secondary {
-    background: #fff;
-    color: #475CDB;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-weight: 600;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 15px color-mix(in srgb, var(--accent-color), transparent 80%);
-    padding: 17px 32px;
-    border-radius: 6px;
+  background: #fff;
+  color: #475CDB;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px color-mix(in srgb, var(--accent-color), transparent 80%);
+  padding: 17px 32px;
+  border-radius: 6px;
 }
 
 .hero .hero-cta .btn-secondary i {
@@ -915,38 +929,38 @@ span.heading-linear-color {
 }
 
 .hero .hero-image img {
-    border-radius: 12px;
-    width: 100rem;
+  border-radius: 12px;
+  width: 100rem;
 }
 
 .hero .hero-image .floating-card {
-    position: absolute;
-    bottom: 20px;
-    left: 8px;
-    background: var(--surface-color);
-    padding: 1.5rem;
-    border-radius: 12px;
-    box-shadow: 0 10px 40px color-mix(in srgb, var(--default-color), transparent 85%);
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    min-width: 181px;
-    height: 80px;
+  position: absolute;
+  bottom: 20px;
+  left: 8px;
+  background: var(--surface-color);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px color-mix(in srgb, var(--default-color), transparent 85%);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  min-width: 181px;
+  height: 80px;
 }
 
 .hero .hero-image .floating-card-upside {
-    position: absolute;
-    top: -22px;
-    right: 20px;
-    background: var(--surface-color);
-    padding: 1.5rem;
-    border-radius: 12px;
-    box-shadow: 0 10px 40px color-mix(in srgb, var(--default-color), transparent 85%);
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    min-width: 181px;
-    height: 80px;
+  position: absolute;
+  top: -22px;
+  right: 20px;
+  background: var(--surface-color);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px color-mix(in srgb, var(--default-color), transparent 85%);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  min-width: 181px;
+  height: 80px;
 }
 
 @media (max-width: 768px) {
@@ -959,20 +973,19 @@ span.heading-linear-color {
 }
 
 .hero .hero-image .floating-card .card-icon {
-    width: 50px;
-    height: 50px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: linear-gradient(
-270deg, #475CDB, #38E9FF);
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(270deg, #475CDB, #38E9FF);
 }
+
 .hero .hero-image .floating-card-upside .card-icon {
   width: 50px;
   height: 50px;
-  background-image: linear-gradient(
-270deg, #475CDB, #38E9FF);
+  background-image: linear-gradient(270deg, #475CDB, #38E9FF);
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -990,10 +1003,10 @@ span.heading-linear-color {
 }
 
 .hero .hero-image .floating-card .card-content h2 {
-    font-size: 0.80rem;
-    font-weight: 600;
-    margin: 0 0 0.25rem 0;
-    color: #00000094;
+  font-size: 0.80rem;
+  font-weight: 600;
+  margin: 0 0 0.25rem 0;
+  color: #00000094;
 }
 
 .hero .hero-image .floating-card-upside .card-content h2 {
@@ -1037,103 +1050,103 @@ span.heading-linear-color {
 # About Section
 --------------------------------------------------------------*/
 .icon-box {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 15px;
-    margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  margin-bottom: 18px;
 }
 
 .info-card {
-    padding: 20px 40px;
-    border-radius: 10px;
-    background: linear-gradient(137deg,rgba(235, 238, 247, 1) 28%, rgba(255, 255, 255, 1) 100%);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px 40px;
+  border-radius: 10px;
+  background: linear-gradient(137deg, rgba(235, 238, 247, 1) 28%, rgba(255, 255, 255, 1) 100%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .icon-box img {
-    width: 50px;
-    height: auto;
-    background: linear-gradient(170deg,rgba(71, 92, 219, 1) 0%, rgba(56, 233, 255, 1) 100%);
-    border-radius: 10px;
+  width: 50px;
+  height: auto;
+  background: linear-gradient(170deg, rgba(71, 92, 219, 1) 0%, rgba(56, 233, 255, 1) 100%);
+  border-radius: 10px;
 }
 
 .icon-box h5 {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .info-section {
-    margin-bottom: 64px;
+  margin-bottom: 64px;
 }
 
 .story-section {
-    padding: 49px;
-    background: linear-gradient(90deg,rgba(255, 255, 255, 1) 0%, rgba(235, 238, 247, 1) 50%, rgba(255, 255, 255, 1) 100%);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 49px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(235, 238, 247, 1) 50%, rgba(255, 255, 255, 1) 100%);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .story-image img {
-    width: 490px;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 490px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
 .story-content h5.subtitle {
-    font-size: 0.875rem;
-    font-weight: 600;
-    color: #475cdb;
-    text-transform: uppercase;
-    letter-spacing: 0.045rem;
-    margin-bottom: 1rem;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
-    padding: 0.3rem 1rem;
-    border-radius: 50rem;
-    background: #ebeef7;
-    display: inline-flex;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #475cdb;
+  text-transform: uppercase;
+  letter-spacing: 0.045rem;
+  margin-bottom: 1rem;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
+  padding: 0.3rem 1rem;
+  border-radius: 50rem;
+  background: #ebeef7;
+  display: inline-flex;
 }
 
 .story-content h2 {
-    font-size: 25px;
-    margin-bottom: 1rem;
-    font-weight: 500;
+  font-size: 25px;
+  margin-bottom: 1rem;
+  font-weight: 500;
 }
 
 .story-content p {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 /* ================= Common ================= */
 .main-heading {
-    font-weight: 500;
-    font-size: 2.3rem;
+  font-weight: 500;
+  font-size: 2.3rem;
 }
 
 .sub-text {
-    max-width: 620px;
-    margin: 0 auto;
-    font-size: 1rem;
+  max-width: 620px;
+  margin: 0 auto;
+  font-size: 1rem;
 }
 
 /* ================= Difference ================= */
 .difference-wrapper {
-    padding: 64px 0;
+  padding: 64px 0;
 }
 
 .difference-card {
-    background: #fff;
-    padding: 28px 24px;
-    border-radius: 16px;
-    text-align: center;
-    height: 100%;
-    box-shadow: 0 12px 30px rgba(15,23,42,0.06);
-    transition: transform .3s ease;
-    border: 1px solid #00000021;
+  background: #fff;
+  padding: 28px 24px;
+  border-radius: 16px;
+  text-align: center;
+  height: 100%;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.06);
+  transition: transform .3s ease;
+  border: 1px solid #00000021;
 }
 
 .difference-card:hover {
@@ -1141,22 +1154,22 @@ span.heading-linear-color {
 }
 
 .icon-circle {
-    width: 48px;
-    height: 48px;
-    border-radius: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-weight: 600;
-    margin: 0 auto 14px;
-    background: linear-gradient(170deg, rgba(71, 92, 219, 1) 0%, rgba(56, 233, 255, 1) 100%);
+  width: 48px;
+  height: 48px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 600;
+  margin: 0 auto 14px;
+  background: linear-gradient(170deg, rgba(71, 92, 219, 1) 0%, rgba(56, 233, 255, 1) 100%);
 }
 
 .difference-card h3 {
-    font-weight: 600;
-    margin-bottom: 8px;
-    font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-size: 1rem;
 }
 
 .difference-card p {
@@ -1167,29 +1180,47 @@ span.heading-linear-color {
 
 /* ================= Team ================= */
 .team-card {
-    padding: 48px 0px;
+  padding: 48px 0px;
 }
 
-.member-card h6 {
+.team-wrapper {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(235, 238, 247, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    padding: 49px 0px;
+}
+
+
+.member-card h3 {
+  font-size: 16px;
   font-weight: 600;
-  margin-top: 14px;
+  letter-spacing: 0.4px;
 }
 
-.member-card span {
-  font-size: 14px;
-  color: #64748b;
+.member-card p {
+  color: #475cdb;
+  font-weight: 500;
+  letter-spacing: 0.5px;
 }
+
+.member-card p.expert-description {
+  color: #00000078;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
 
 .member-avatar {
-    width: 92px;
-    height: 92px;
-    border-radius: 10px;
-    margin: 0 auto;
-    background: linear-gradient(170deg, rgba(71, 92, 219, 1) 0%, rgba(56, 233, 255, 1) 100%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 15px;
+  width: 92px;
+  height: 92px;
+  border-radius: 10px;
+  margin: 0 auto;
+  background: linear-gradient(170deg, rgba(71, 92, 219, 1) 0%, rgba(56, 233, 255, 1) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
 }
 
 
@@ -1234,9 +1265,11 @@ span.heading-linear-color {
 }
 
 .about .stats-row {
-  display: flex;
-  gap: 40px;
-  margin: 60px 0;
+    display: flex;
+    gap: 24px;
+    padding: 29px 0;
+    text-align: center;
+    justify-content: space-around;
 }
 
 @media (max-width: 576px) {
@@ -1248,16 +1281,15 @@ span.heading-linear-color {
 
 .about .stats-row .stat-item .stat-number {
   font-size: 48px;
-  font-weight: 300;
-  line-height: 1;
-  color: var(--accent-color);
+  font-weight: 700;
+  color: #475cdb;
   font-family: var(--heading-font);
 }
 
 .about .stats-row .stat-item .stat-label {
   font-size: 14px;
   font-weight: 500;
-  text-transform: uppercase;
+  text-transform: capitalize;
   letter-spacing: 1px;
   color: color-mix(in srgb, var(--default-color), transparent 40%);
   margin-top: 8px;
@@ -1398,30 +1430,29 @@ span.heading-linear-color {
 }
 
 .services .service-item {
-    padding: 30px 22px;
-    background-color: var(--surface-color);
-    border-radius: 8px;
-    transition: all 0.4s ease-in-out;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    overflow: hidden;
-    box-shadow: 0 20px 40px 
- color-mix(in srgb, var(--default-color), transparent 90%);
+  padding: 30px 22px;
+  background-color: var(--surface-color);
+  border-radius: 8px;
+  transition: all 0.4s ease-in-out;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 20px 40px color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
 .services .service-item::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 4px;
-    background: linear-gradient(90deg, rgba(71, 92, 219, 1) 0%, rgba(52, 168, 83, 1) 100%);
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 0.4s ease-in-out;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, rgba(71, 92, 219, 1) 0%, rgba(52, 168, 83, 1) 100%);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease-in-out;
 }
 
 .services .service-item:hover {
@@ -1446,22 +1477,22 @@ span.heading-linear-color {
 }
 
 .service-icon img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .services .service-item .service-icon {
-    width: 60px;
-    height: 60px;
-    background: linear-gradient(90deg, rgba(71, 92, 219, 1) 0%, rgba(52, 168, 83, 1) 100%);
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 16px;
-    transition: transform 0.4s ease-in-out;
-    flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(90deg, rgba(71, 92, 219, 1) 0%, rgba(52, 168, 83, 1) 100%);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  transition: transform 0.4s ease-in-out;
+  flex-shrink: 0;
 }
 
 .services .service-item .service-icon i {
@@ -1485,15 +1516,15 @@ span.heading-linear-color {
 }
 
 .services .service-item .service-link {
-    color: #396ce5;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 15px;
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    transition: all 0.3s ease-in-out;
-    align-self: flex-start;
+  color: #396ce5;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease-in-out;
+  align-self: flex-start;
 }
 
 .services .service-item .service-link i {
