@@ -1122,7 +1122,7 @@ span.heading-linear-color {
 
 /* ================= Difference ================= */
 .difference-wrapper {
-  padding: 90px 0;
+    padding: 64px 0;
 }
 
 .difference-card {
@@ -1150,6 +1150,7 @@ span.heading-linear-color {
     color: #fff;
     font-weight: 600;
     margin: 0 auto 14px;
+    background: linear-gradient(170deg, rgba(71, 92, 219, 1) 0%, rgba(56, 233, 255, 1) 100%);
 }
 
 .difference-card h3 {
@@ -1165,15 +1166,8 @@ span.heading-linear-color {
 }
 
 /* ================= Team ================= */
-/* .team-wrapper {
-  padding: 100px 0;
-} */
-
 .team-card {
-  background: #ffffff;
-  border-radius: 24px;
-  padding: 60px;
-  box-shadow: 0 20px 50px rgba(15,23,42,0.08);
+    padding: 48px 0px;
 }
 
 .member-card h6 {
@@ -1187,26 +1181,20 @@ span.heading-linear-color {
 }
 
 .member-avatar {
-  width: 90px;
-  height: 90px;
-  border-radius: 16px;
-  margin: 0 auto;
+    width: 92px;
+    height: 92px;
+    border-radius: 10px;
+    margin: 0 auto;
+    background: linear-gradient(170deg, rgba(71, 92, 219, 1) 0%, rgba(56, 233, 255, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
 }
 
-.gradient-blue {
-  background: linear-gradient(135deg, #3b82f6, #06b6d4);
-}
-
-.gradient-cyan {
-  background: linear-gradient(135deg, #22d3ee, #6366f1);
-}
-
-.gradient-light {
-  background: linear-gradient(135deg, #cbd5e1, #e2e8f0);
-}
 
 /* ================= Stats ================= */
-.stats-row h4 {
+/* .stats-row h4 {
   font-weight: 700;
   color: #2563eb;
 }
@@ -1214,7 +1202,7 @@ span.heading-linear-color {
 .stats-row p {
   font-size: 14px;
   color: #64748b;
-}
+} */
 
 .about .content h2 {
   font-size: 42px;
