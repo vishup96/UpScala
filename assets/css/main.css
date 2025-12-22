@@ -1212,19 +1212,19 @@ span.heading-linear-color {
 
 
 .member-avatar {
-  width: 92px;
-  height: 92px;
-  border-radius: 10px;
-  margin: 0 auto;
-  background: linear-gradient(170deg, rgba(71, 92, 219, 1) 0%, rgba(56, 233, 255, 1) 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 15px;
+    width: 142px;
+    height: 142px;
+    border-radius: 10px;
+    margin: 0 auto;
+    background: linear-gradient(170deg, rgba(71, 92, 219, 1) 0%, rgba(56, 233, 255, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
 }
 
 .member-avatar img {
-    width: 35px;
+    width: 50px;
     height: auto;
 }
 
