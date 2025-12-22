@@ -1223,6 +1223,11 @@ span.heading-linear-color {
   margin-bottom: 15px;
 }
 
+.member-avatar img {
+    width: 35px;
+    height: auto;
+}
+
 
 /* ================= Stats ================= */
 /* .stats-row h4 {
