@@ -1267,9 +1267,10 @@ span.heading-linear-color {
 .about .stats-row {
     display: flex;
     gap: 24px;
-    padding: 29px 0;
+    padding: 19px 0;
     text-align: center;
     justify-content: space-around;
+    border-top: 1px solid #00000012;
 }
 
 @media (max-width: 576px) {
