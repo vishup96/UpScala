@@ -1144,6 +1144,9 @@ span.heading-linear-color {
   .story-section {
     padding: 19px;
   }
+  .info-card {
+    margin-bottom: 20px;
+}
 }
 
 /* ================= Common ================= */
@@ -1925,13 +1928,17 @@ span.heading-linear-color {
     font-size: 28px;
   }
 
-  .contact-card {
+.contact-card {
     position: static;
     transform: none;
     margin-top: 20px;
     flex-direction: column;
     text-align: center;
-  }
+    width: 100%;
+}
+.cta-image img {
+    height: auto;
+}
 }
 
 
