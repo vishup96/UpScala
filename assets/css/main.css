@@ -1943,6 +1943,131 @@ span.heading-linear-color {
 
 
 /*--------------------------------------------------------------
+# Services Included Section
+--------------------------------------------------------------*/
+.services-included {
+  background: #f8fafc;
+}
+
+.section-badge {
+  display: inline-block;
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #3b5cff;
+  background: rgba(59, 92, 255, 0.1);
+  border-radius: 999px;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.section-subtitle {
+  max-width: 560px;
+  color: #64748b;
+  font-size: 15px;
+}
+
+.service-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 28px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+}
+.service-head .service-icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(90deg, rgba(71, 92, 219, 1) 0%, rgba(52, 168, 83, 1) 100%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    transition: transform 0.4s ease-in-out;
+    flex-shrink: 0;
+}
+
+.service-head h5 {
+  font-weight: 600;
+  margin-top: 14px;
+}
+
+.service-head p {
+  font-size: 14px;
+  color: #64748b;
+}
+
+.service-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: #fff;
+}
+
+.service-icon.google { background: #4285f4; }
+.service-icon.meta { background: #2563eb; }
+.service-icon.webflow { background: #7c3aed; }
+
+.service-point {
+    padding-left: 20px;
+}
+
+.service-point h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.service-point p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #64748b;
+}
+
+.services-cta {
+  background: linear-gradient(135deg, #4f6cff, #1f2f8f);
+  color: #fff;
+  padding: 40px 30px;
+  border-radius: 20px;
+}
+
+.services-cta h4 {
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.services-cta p {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.cta-actions {
+  margin-top: 20px;
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 28px;
+  }
+
+  .service-card {
+    padding: 20px;
+  }
+}
+
+
+/*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
 .contact {
